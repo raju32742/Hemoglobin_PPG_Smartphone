@@ -1,0 +1,76 @@
+---------------------------------------------------------------
+### (1.1) Best feature numbers : 19
+### (1.2) Selected Features Names : 
+           ['Sex' 'Systolic_peak(x)' 'Diastolic_peak(y)' 'Dicrotic_notch(z)'
+ '(y-z)/x' 'Dicrotic_notch_time(t3)'
+ 'Time_between_systolic_and_diastolic_peaks(∆T)'
+ 'Systolic_peak_rising_slope(t1/x)'
+ 'Diastolic_peak_falling_slope(y/(tpi-t3))' 't1/tpi' 't3/tpi' 'ta1/tpi'
+ 'te1/tpi' 'tf1/tpi' 'tb2/tpi' '(te1+t2)/tpi'
+ '2nd_harmonic_frequency(f2nd)' '2nd_harmonic_magnitude(|s2nd|)'
+ 'Stress-induced_vascular_response_index(sVRI)']
+
+ --------------------------------------------------------------
+
+ (2.1) Performance for Hemoglobin of LED-1070: 
+R: 0.9043191847723091
+R^2 Score: 0.8044334559335113
+MAE: 0.30027558682221295
+MSE: 0.21330368539276431
+RMSE: 0.461848119399402
+MSLE: 0.001516601944835651
+EVS: 0.8052093831215559
+
+(2.2)Performance for Glucose of LED-1070: 
+R: 0.9033268621620729
+R^2 Score: 0.7928716880576461
+MAE: 0.3467636070375204
+MSE: 0.6793958220601449
+RMSE: 0.824254707029414
+MSLE: 0.00784871704802543
+EVS: 0.799026850942256
+
+(2.3) Performance for HbA1c of LED-1070: 
+R: 0.7785179683572211
+R^2 Score: 0.594365886406071
+MAE: 0.15753176646699196
+MSE: 0.17034133472348595
+RMSE: 0.41272428414558543
+MSLE: 0.0031387825485837692
+EVS: 0.6028290661192237
+
+(2.4) Performance for Creatinine of LED-1070: 
+R: 0.9308601917222055
+R^2 Score: 0.8606712791610265
+MAE: 0.03385110535691431
+MSE: 0.002976915160634132
+RMSE: 0.054561113997371166
+MSLE: 0.0008017462795949202
+EVS: 0.8630194292741562
+
+(2.5) Performance for BUN of LED-1070: 
+R: 0.9233585481555137
+R^2 Score: 0.8356216826884779
+MAE: 0.38188668968963
+MSE: 0.321951793183834
+RMSE: 0.5674079600991107
+MSLE: 0.002633249481057217
+EVS: 0.8375516536563063
+
+(2.6) Performance for SPO2 of LED-1070: 
+R: 0.4319438145928291
+R^2 Score: 0.13858142104682214
+MAE: 0.311054713505555
+MSE: 0.34129586383614957
+RMSE: 0.5842053267783079
+MSLE: 3.51934691277597e-05
+EVS: 0.16870135923107032
+
+(2.7) Performance for BPM of LED-1070: 
+R: 0.9139300099348812
+R^2 Score: 0.8289076397673311
+MAE: 3.6216335832167323
+MSE: 29.683109567715455
+RMSE: 5.448220770831103
+MSLE: 0.004242554403219089
+EVS: 0.8304302971404258

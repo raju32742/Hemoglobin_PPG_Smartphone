@@ -1,0 +1,86 @@
+######### LED-0850 :
+------------------- 
+(1) bland_altman_plot: 
+                   	x-axis -> Average Hemoglobin(gm/dL)
+                   	y-axis -> Difference Hemoglobin(gm/dL)
+
+(2) act_pred_plot: 
+                	x-axis -> Reference Hemoglobin(gm/dL)
+                   	y-axis -> Estimated Hemoglobin(gm/dL)
+
+(3) plot_feature_set_score: 
+			x-axis -> Generation
+                   	y-axis -> Fitness value
+
+---------------------------------------------------------------
+### (1.1) Best feature numbers : 17
+### (1.2) Selected Features Names : 
+           ['Age' 'Sex' 'Dicrotic_notch(z)' 'Augmentation_index(y/x)' '(y-z)/x'
+ 'Inflection_point_area_ratio(A2/A1)' 't1/tpi' 't3/tpi' '∆T/tpi' 'te1'
+ 'e2/a2' 'te1/tpi' 'ta2/tpi' '(tb1+tb2)/tpi'
+ '2nd_harmonic_frequency(f2nd)' '2nd_harmonic_magnitude(|s2nd|)'
+ '3rd_harmonic_magnitude(|s3rd|)']
+ --------------------------------------------------------------
+ ### (2.1) Performance for Hemoglobin of LED-0850: 
+R: 0.8893132376476663
+R^2 Score: 0.7862740316932912
+MAE: 0.31033143602482904
+MSE: 0.2337512620205873
+RMSE: 0.4834782952942017
+MSLE: 0.0016791727122719242
+EVS: 0.7874613998496508
+
+(2.2) Performance for Glucose of LED-0850: 
+R: 0.9385088726743193
+R^2 Score: 0.8781798628590859
+MAE: 0.30067238045450007
+MSE: 0.39936449891278303
+RMSE: 0.6319529246018116
+MSLE: 0.005599104504852533
+EVS: 0.8781810376724878
+
+(2.3) Performance for HbA1c of LED-0850: 
+R: 0.9232177140667999
+R^2 Score: 0.8500323821193617
+MAE: 0.12025864552512776
+MSE: 0.06301260531062398
+RMSE: 0.25102311708411235
+MSLE: 0.001337224510928521
+EVS: 0.8500336742143384
+
+
+(2.4) Performance for Creatinine of LED-0850: 
+R: 0.9286038333314428
+R^2 Score: 0.8606236819469539
+MAE: 0.03385008077847946
+MSE: 0.00297793212876047
+RMSE: 0.05457043273385754
+MSLE: 0.0008126497536190416
+EVS: 0.8607774173175938
+
+(2.5) Performance for BUN of LED-0850: 
+R: 0.9311282783886319
+R^2 Score: 0.8601258126147939
+MAE: 0.32675004780588307
+MSE: 0.27187895500801984
+RMSE: 0.5214201329139678
+MSLE: 0.0022748982693692396
+EVS: 0.8601356254648216
+
+(2.6) Performance for SPO2 of LED-0850: 
+R: 0.4897402241051918
+R^2 Score: 0.21588390100524102
+MAE: 0.2826521096840133
+MSE: 0.3159749679997568
+RMSE: 0.5621165074962279
+MSLE: 3.25775707614793e-05
+EVS: 0.23154916630966504
+
+(2.7) Performance for BPM of LED-0850: 
+R: 0.8515321003250707
+R^2 Score: 0.7229853087393282
+MAE: 4.320306806319959
+MSE: 48.450338875643254
+RMSE: 6.9606277644795265
+MSLE: 0.007189956879564262
+EVS: 0.7250272365913718

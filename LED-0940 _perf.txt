@@ -1,0 +1,77 @@
+---------------------------------------------------------------
+### (1.1) Best feature numbers : 27
+### (1.2) Selected Features Names : 
+           ['Age' 'Sex' 'Systolic_peak(x)' 'Dicrotic_notch(z)' 'Pulse_interval(tpi)'
+ 'Diastolic_peak_time(t2)' 'Time_between_systolic_and_diastolic_peaks(∆T)'
+ 'Systolic_peak_rising_slope(t1/x)'
+ 'Diastolic_peak_falling_slope(y/(tpi-t3))' 't1/tpi' 't2/tpi' 't3/tpi'
+ '∆T/tpi' 'tb1' 'tf1' 'ta2' 'tb1/tpi' 'te1/tpi' 'tf1/tpi' 'tb2/tpi'
+ '(ta1+ta2)/tpi' '(tb1+tb2)/tpi' '(te1+t2)/tpi' '(tf1+t3)/tpi'
+ 'Fundamental_component_frequency(fbase)'
+ 'Fundamental_component_magnitude(|sbase|)'
+ '3rd_harmonic_magnitude(|s3rd|)']
+
+ --------------------------------------------------------------
+
+ (2.1) Performance for Hemoglobin of LED-0940: 
+R: 0.9097764163560175
+R^2 Score: 0.8210312302445408
+MAE: 0.29121689563345254
+MSE: 0.1952005561138817
+RMSE: 0.44181507003935677
+MSLE: 0.0013761919502675063
+EVS: 0.8216725887565182
+
+(2.2)Performance for Glucose of LED-0940: 
+R: 0.9308252243306738
+R^2 Score: 0.8539776233613181
+MAE: 0.30352076611953716
+MSE: 0.4746855935726708
+RMSE: 0.6889743054517133
+MSLE: 0.006588017502011375
+EVS: 0.8559004198160929
+
+(2.3) Performance for HbA1c of LED-0940: 
+R: 0.8098662015279978
+R^2 Score: 0.6482556021486023
+MAE: 0.14591134767335562
+MSE: 0.14667140064786896
+RMSE: 0.38297702365529573
+MSLE: 0.002632606737102474
+EVS: 0.6507805843697205
+
+(2.4) Performance for Creatinine of LED-0940: 
+R: 0.9026039791022186
+R^2 Score: 0.8107892285052956
+MAE: 0.03734931535704614
+MSE: 0.003962814420790078
+RMSE: 0.0629508889594903
+MSLE: 0.0010886521706837088
+EVS: 0.8125381367416465
+
+(2.5) Performance for BUN of LED-0940: 
+R: 0.923958894223228
+R^2 Score: 0.8398135156535629
+MAE: 0.3353973038763543
+MSE: 0.3068610945336069
+RMSE: 0.5539504441135569
+MSLE: 0.0024340867266832
+EVS: 0.8398588763122937
+
+(2.6) Performance for SPO2 of LED-0940: 
+R: 0.4806328369643696
+R^2 Score: 0.20508796084577974
+MAE: 0.2943842594097782
+MSE: 0.3203254039247254
+RMSE: 0.5659729710195757
+MSLE: 3.301414223563267e-05
+EVS: 0.224473767912011
+
+(2.7) Performance for BPM of LED-0940: 
+R: 0.8272046057837376
+R^2 Score: 0.6830735837109669
+MAE: 4.293208239563436
+MSE: 55.39725861472757
+RMSE: 7.442933468379761
+MSLE: 0.007621258015727691
+EVS: 0.6842131480035392

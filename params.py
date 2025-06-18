@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 17 22:30:28 2018
+
+@author: rezwan
+"""
+
+MINIMUM_PULSE_CYCLE = 0.5
+MAXIMUM_PULSE_CYCLE = 3.25 # 1.2 # 3.5 - 3.25 hz
+
+PPG_SAMPLE_RATE = 60 # 200 # 60
+PPG_FIR_FILTER_TAP_NUM = 60
+PPG_FILTER_CUTOFF = [0.5 , 3.5] # [0.5, 5.0] # [0.5 , 3.5]
+PPG_SYSTOLIC_PEAK_DETECTION_THRESHOLD_COEFFICIENT = 0.01 #0.005 
+
+TRAINING_DATA_RATIO = 0.75 # 70, 80
